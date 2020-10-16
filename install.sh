@@ -38,23 +38,23 @@ EOF
 
 install() {
     print @b@magentaYum install zsh ...@reset
-    sudo yum install zsh -y
+     yum install zsh -y
 
     print @b@magentaYum install git@reset
-    sudo yum install git -y
+     yum install git -y
 
     print @b@magentaYum install oh my zsh@reset
-    sudo sh -c "$(curl -fsSL https://gitee.com/mirrors/oh-my-zsh/raw/master/tools/install.sh)" "" --unattended
+     sh -c "$(curl -fsSL https://gitee.com/mirrors/oh-my-zsh/raw/master/tools/install.sh)" "" --unattended
 
     if [ -d "${ZSH_CUSTOM}" ]; then
         print @b@cyanGit clone oh my zsh plugin for zsh-autosuggestions@reset
-        sudo git clone https://gitee.com/xs-mirrors/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+         git clone https://gitee.com/xs-mirrors/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
 
         print @b@cyanGit clone oh my zsh plugin for zsh-syntax-highlighting@reset
-        sudo git clone https://gitee.com/xs-mirrors/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+         git clone https://gitee.com/xs-mirrors/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
 
         print @b@cyanGit clone oh my zsh plugin for autojump@reset
-        sudo git clone https://gitee.com/xs-mirrors/autojump.git $ZSH_CUSTOM/plugins/autojump
+         git clone https://gitee.com/xs-mirrors/autojump.git $ZSH_CUSTOM/plugins/autojump
 
         print @b@blueInstall autojump plugin@reset
         if [ -d "${AUTOJUMP_PATH}" ]; then

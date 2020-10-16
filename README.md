@@ -9,5 +9,5 @@ Use of guidelines
 
 # xc awesome shell
 ```shell script
-sh -c "$(curl -fsSL http://114.mx/xcshell)"
+sh -c "$(curl -fsSL https://xs-work.gitee.io/xc-awesome-shell/install.sh)"
 ```
