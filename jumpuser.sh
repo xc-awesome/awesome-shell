@@ -1,4 +1,5 @@
 #!/bin/bash
+set +e
 
 echo  ::::::: Begin installing and configuring jumpuser users :::::::
 
