@@ -2,8 +2,6 @@
 
 echo  ::::::: Begin installing and configuring jumpuser users :::::::
 
-echo Change user to root
-
 echo Yum install zsh ...
 sudo yum install zsh -y
 
