@@ -5,7 +5,7 @@ Use of guidelines
 .
 ├── README.md
 ├── jumpuser.sh       # jump user install
-└── root.sh           # root user install
+└── install.sh           # root user install
 ```
 
 # jump user install command
