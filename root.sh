@@ -8,7 +8,7 @@ echo Yum install git
 sudo yum install git -y
 
 echo Yum install oh my zsh
-sudo sh -c "$(curl -fsSL https://gitee.com/mirrors/oh-my-zsh/raw/master/tools/install.sh) --unattended"
+sudo sh -c "$(curl -fsSL https://gitee.com/mirrors/oh-my-zsh/raw/master/tools/install.sh)"  --unattended
 
 echo Git clone oh my zsh plugin for zsh-autosuggestions
 sudo git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
