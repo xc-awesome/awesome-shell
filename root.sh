@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+RUNZSH=no
 echo  ::::::: Begin installing and configuring jumpuser users :::::::
 
 echo Yum install zsh ...
